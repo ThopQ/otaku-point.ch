@@ -21,7 +21,13 @@ const contacts = ref([
         job: "Informatiker EFZ",
         favManga: "Berserk",
         favAnime: "Kimi no Na wa",
-        hobbies: ["Anime/Manga 🍥", "Lesen 📖", "Klavier 🎹", "Code 👨🏻‍💻"],
+        hobbies: [
+            "Anime/Manga 🍥",
+            "Lesen 📖",
+            "Klavier 🎹",
+            "Bass/Ukulele 🎸",
+            "Code 👨🏻‍💻",
+        ],
     },
     {
         name: "Kevin Kölliker",
