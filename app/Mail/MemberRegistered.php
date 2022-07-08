@@ -28,6 +28,6 @@ class MemberRegistered extends Mailable
      */
     public function build()
     {
-        return $this->subject('Herzlich Willkommen! 🍙')->view('emails.members.registered');
+        return $this->subject('Herzlich Willkommen!')->view('emails.members.registered');
     }
 }
