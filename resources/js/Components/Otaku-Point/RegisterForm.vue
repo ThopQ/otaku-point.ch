@@ -1,12 +1,22 @@
 <script setup>
 import { ref } from "vue";
 import { useForm } from "@inertiajs/inertia-vue3";
+import { useReCaptcha } from "vue-recaptcha-v3";
 
 const form = useForm({
     email: null,
+    recaptcha_token: null,
 });
 
+const { executeRecaptcha, recaptchaLoaded } = useReCaptcha();
+
 const isCompleted = ref(false);
+
+async function checkRecaptcha() {
+    await recaptchaLoaded();
+    form.recaptcha_token = await executeRecaptcha("login");
+    submit();
+}
 
 function submit() {
     form.post(route("members.store"), {
@@ -23,7 +33,7 @@ function submit() {
                 Werde Otaku-Mitglied und erhalte die neusten Infos per Mail!
             </h3>
 
-            <form v-if="!isCompleted" @submit.prevent="submit">
+            <form v-if="!isCompleted" @submit.prevent="checkRecaptcha">
                 <div class="flex flex-row justify-center gap-4">
                     <div class="form-control w-full max-w-xs">
                         <input
@@ -39,6 +49,12 @@ function submit() {
                                 class="label-text-alt text-error"
                             >
                                 {{ form.errors.email }}
+                            </span>
+                            <span
+                                v-if="form.errors.recaptcha_token"
+                                class="label-text-alt text-error"
+                            >
+                                {{ form.errors.recaptcha_token }}
                             </span>
                         </label>
                     </div>

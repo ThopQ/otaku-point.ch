@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use App\Rules\Recaptcha;
 
 class StoreMemberRequest extends FormRequest
 {
@@ -25,6 +26,7 @@ class StoreMemberRequest extends FormRequest
     {
         return [
             'email' => 'required|unique:members|email:rfc,dns',
+            'recaptcha_token' => ['required', new Recaptcha]
         ];
     }
 }
