@@ -39,7 +39,8 @@ onClickOutside(modal, () => {
                     class="max-h-96 overflow-y-auto overscroll-contain no-scrollbar"
                 >
                     <p class="mb-5">
-                        <span class="text-lg font-bold"> Kontakt</span><br />
+                        <span class="text-lg font-bold"> Kontakt </span>
+                        <br />
                         <span>Otaku-Point</span><br />
                         <a
                             href="mailto:info@otaku-point.ch"
@@ -75,12 +76,16 @@ onClickOutside(modal, () => {
                     </p>
 
                     <p class="mb-5">
-                        Haftungsausschluss Der Autor übernimmt keinerlei Gewähr
-                        hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit,
-                        Aktualität, Zuverlässigkeit und Vollständigkeit der
-                        Informationen. Haftungsansprüche gegen den Autor wegen
-                        Schäden materieller oder immaterieller Art, welche aus
-                        dem Zugriff oder der Nutzung bzw. Nichtnutzung der
+                        <span class="text-lg font-bold">
+                            Haftungsausschluss
+                        </span>
+                        <br />
+                        Der Autor übernimmt keinerlei Gewähr hinsichtlich der
+                        inhaltlichen Richtigkeit, Genauigkeit, Aktualität,
+                        Zuverlässigkeit und Vollständigkeit der Informationen.
+                        Haftungsansprüche gegen den Autor wegen Schäden
+                        materieller oder immaterieller Art, welche aus dem
+                        Zugriff oder der Nutzung bzw. Nichtnutzung der
                         veröffentlichten Informationen, durch Missbrauch der
                         Verbindung oder durch technische Störungen entstanden
                         sind, werden ausgeschlossen. Alle Angebote sind
@@ -101,6 +106,8 @@ onClickOutside(modal, () => {
                     </p>
 
                     <p class="mb-5">
+                        <span class="text-lg font-bold"> Datenverwaltung </span>
+                        <br />
                         Wir erheben keine personenbezogenen Daten, ausser nicht
                         kateregorisierbaren Email-Adressen. Diese werden
                         lediglich dazu verwendet, den registrierten
