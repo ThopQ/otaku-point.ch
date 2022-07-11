@@ -57,7 +57,15 @@ onClickOutside(modal, () => {
                             Technischer Kontakt
                         </span>
                         <br />
-                        <span>Thomas Iseli</span><br />
+                        <span class="mr-1">Thomas Iseli</span>
+                        <a
+                            href="https://github.com/ThopQ/otaku-point.ch"
+                            class="link link-hover"
+                            target="_blank"
+                        >
+                            GitHub
+                        </a>
+                        <br />
                         <a
                             href="https://webyourself.ch"
                             class="link link-hover"
