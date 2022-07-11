@@ -44,7 +44,7 @@ import { Link } from "@inertiajs/inertia-vue3";
             <a href="mailto:info@otaku-point.ch" class="link link-hover">
                 info@otaku-point.ch
             </a>
-            <span>Otaku-Point | 2022</span>
+            <span>Otaku-Point | {{ new Date().getFullYear() }}</span>
         </div>
 
         <div>
