@@ -18,7 +18,7 @@ onClickOutside(modal, () => {
 
 <template>
     <div
-        class="fixed top-0 h-screen w-full z-50 bg-base-100 backdrop-filter backdrop-blur-md bg-opacity-30 flex flex-col sm:grid sm:place-content-center pt-12 sm:pt-0"
+        class="fixed top-0 h-screen w-full z-50 bg-base-100 backdrop-filter backdrop-blur-md bg-opacity-30 grid content-start sm:content-center place-content-center pt-12 sm:pt-0"
     >
         <div ref="modal" class="card shadow-xl bg-base-300 max-w-md">
             <div class="card-body">
