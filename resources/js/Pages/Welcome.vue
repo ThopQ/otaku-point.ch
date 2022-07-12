@@ -18,6 +18,7 @@ const contacts = ref([
         name: "Thomas Iseli",
         age: 23,
         imageSrc: "/media/thomas-iseli.jpg",
+        linkedinSrc: "https://www.linkedin.com/in/thomas-iseli-440a5b1a6/",
         job: "Informatiker EFZ",
         favManga: "Berserk",
         favAnime: "Kimi no Na wa",
@@ -34,6 +35,7 @@ const contacts = ref([
         age: 31,
         job: "Application Engineer",
         imageSrc: "/media/kevin-koelliker.jpg",
+        linkedinSrc: "https://www.linkedin.com/in/kevin-koelliker-0b8151164/",
         favManga: "One Piece",
         favAnime: "Demon Slayer",
         hobbies: [

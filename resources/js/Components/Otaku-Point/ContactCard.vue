@@ -11,11 +11,21 @@ defineProps({
                 <div
                     class="rounded-xl w-32 md:w-40 lg:w-44 h-full rounded-xl shadow-xl -translate-y-12 md:-translate-y-16"
                 >
-                    <img :src="contact.imageSrc" :alt="contact.name" />
+                    <a :href="contact.linkedinSrc" target="_blank">
+                        <img :src="contact.imageSrc" :alt="contact.name" />
+                    </a>
                 </div>
             </div>
             <div>
-                <h2 class="card-title">{{ contact.name }}</h2>
+                <h2 class="card-title">
+                    <a
+                        :href="contact.linkedinSrc"
+                        target="_blank"
+                        class="link link-hover"
+                    >
+                        {{ contact.name }}
+                    </a>
+                </h2>
 
                 <p>{{ contact.job }}</p>
                 <p>Alter: {{ contact.age }} Jahre</p>
