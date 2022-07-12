@@ -57,7 +57,7 @@ import { Link } from "@inertiajs/inertia-vue3";
             >
                 www.teko.ch
             </a>
-            <a href="mailto:olten@teko.ch" class="link link-hover">
+            <a href="mailto:olten@teko.ch" class="link link-hover mb-8">
                 olten@teko.ch
             </a>
         </div>
