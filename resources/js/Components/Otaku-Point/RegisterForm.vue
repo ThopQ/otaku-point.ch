@@ -29,7 +29,7 @@ function submit() {
 <template>
     <div class="card shadow-xl w-full md:w-auto bg-base-200">
         <div class="card-body">
-            <h3 class="text-center text-lg font-bold">
+            <h3 class="text-center text-md sm:text-lg font-bold">
                 Werde Otaku-Mitglied und erhalte die neusten Infos per Mail!
             </h3>
 
