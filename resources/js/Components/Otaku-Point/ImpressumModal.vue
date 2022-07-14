@@ -63,8 +63,7 @@ onClickOutside(modal, () => {
                             href="https://github.com/ThopQ/otaku-point.ch"
                             class="link link-hover"
                             target="_blank"
-                        >
-                            GitHub
+                            >GitHub
                         </a>
                         <br />
                         <a
