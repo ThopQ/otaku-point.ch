@@ -65,6 +65,7 @@ const contacts = ref([
         />
         <meta
             property="og:image"
+            itemprop="image"
             content="https://otaku-point.ch/media/otaku-point_header_min.png"
         />
     </Head>
