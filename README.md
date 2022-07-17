@@ -1,6 +1,6 @@
 # Otaku-Point 🍥🎑
 
-![Otaku-Point](https://scontent.fbsl1-1.fna.fbcdn.net/v/t39.30808-6/291314700_105511712220511_6456701951218146059_n.png?stp=dst-png_p403x403&_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=MQBS4gxi_1AAX9m2lXd&_nc_ht=scontent.fbsl1-1.fna&oh=00_AT_rKS3V8U-Bm9aIOBipDiCHqViulKXmu0G6vsNkSAEmrw&oe=62D05FB3)
+![Otaku-Point](https://otaku-point.ch/media/otaku-point_header.png)
 
 ## Description 🗒️
 
