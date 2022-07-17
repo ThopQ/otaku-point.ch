@@ -52,14 +52,6 @@ const contacts = ref([
 <template>
     <Head>
         <title>❤️-lich Willkommen</title>
-
-        <meta property="og:locale" content="de_CH" />
-        <meta property="og:title" content="Willkommen bei Otaku-Point" />
-        <meta property="og:url" content="https://otaku-point.ch" />
-        <meta
-            property="og:description"
-            content="Das Anime/Manga-Café in deiner Region!"
-        />
     </Head>
 
     <main>
